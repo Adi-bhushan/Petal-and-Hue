@@ -1,5 +1,6 @@
 Petal and Hue: A Full-Stack MERN E-Commerce Platform
 Live Demo: https://petal-and-hue.netlify.app/
+
 Petal and Hue is a complete, full-stack e-commerce web application built from the ground up using the MERN stack (MongoDB, Express.js, React, Node.js). It showcases a feature-rich, responsive, and secure platform that mimics a real-world online shopping experience from start to finish.
 
 The application provides a seamless user journey where customers can browse a dynamic product catalog fetched live from the database. Key features include a full-featured shopping cart, secure user authentication with registration and login functionality using JSON Web Tokens (JWT), and a complete multi-step checkout process. Users can enter shipping details, select a payment method, and review a final summary before placing an order. All placed orders are saved to the database, and users can view their complete order history on a dedicated profile page.
@@ -59,8 +60,8 @@ A code editor like VS Code
 Installation & Setup
 Clone the repository:
 
-git clone https://github.com/your-username/Petal-and-Hue.git
-cd SnapCart-A-Full-Stack-MERN-E-Commerce-Platform
+git clone https://github.com/Adi-bhushan/Petal-and-Hue.git
+cd Petal-and-Hue
 
 Install backend dependencies:
 

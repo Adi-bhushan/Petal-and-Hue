@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "bootswatch": "^5.3.8"
+    "bootswatch": "^5.3.8",
+    "mongodb": "^6.20.0"
   }
 }

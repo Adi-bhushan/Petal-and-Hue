@@ -1,6 +1,6 @@
-SnapCart: A Full-Stack MERN E-Commerce Platform
+Petal and Hue: A Full-Stack MERN E-Commerce Platform
 Live Demo: https://your-site-name.netlify.app
-SnapCart is a complete, full-stack e-commerce web application built from the ground up using the MERN stack (MongoDB, Express.js, React, Node.js). It showcases a feature-rich, responsive, and secure platform that mimics a real-world online shopping experience from start to finish.
+Petal and Hue is a complete, full-stack e-commerce web application built from the ground up using the MERN stack (MongoDB, Express.js, React, Node.js). It showcases a feature-rich, responsive, and secure platform that mimics a real-world online shopping experience from start to finish.
 
 The application provides a seamless user journey where customers can browse a dynamic product catalog fetched live from the database. Key features include a full-featured shopping cart, secure user authentication with registration and login functionality using JSON Web Tokens (JWT), and a complete multi-step checkout process. Users can enter shipping details, select a payment method, and review a final summary before placing an order. All placed orders are saved to the database, and users can view their complete order history on a dedicated profile page.
 

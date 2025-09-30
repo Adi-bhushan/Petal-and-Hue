@@ -59,7 +59,7 @@ A code editor like VS Code
 Installation & Setup
 Clone the repository:
 
-git clone https://github.com/your-username/SnapCart-A-Full-Stack-MERN-E-Commerce-Platform.git
+git clone https://github.com/your-username/Petal-and-Hue.git
 cd SnapCart-A-Full-Stack-MERN-E-Commerce-Platform
 
 Install backend dependencies:

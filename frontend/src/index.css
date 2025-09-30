@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* --- Beige & Espresso Color Palette --- */
+:root {
+  --background-beige: #F5EBE0;
+  /* Main light background */
+  --card-beige: #EAD7D7;
+  /* Slightly darker beige for cards */
+  --text-espresso: #4A2C2A;
+  /* Dark brown for text and headers */
+  --primary-brown: #A97155;
+  /* A warm, medium brown for buttons */
+  --primary-hover: #8E5C44;
+  /* A darker brown for button hover */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* --- General Styles & Fonts --- */
+body {
+  background-color: var(--background-beige) !important;
+  color: var(--text-espresso) !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* --- Navbar & Title Font --- */
+.navbar {
+  background-color: var(--text-espresso) !important;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.8rem !important;
+  color: var(--background-beige) !important;
+}
+
+.navbar .nav-link,
+.navbar .nav-dropdown {
+  color: var(--background-beige) !important;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: var(--card-beige) !important;
+}
+
+/* --- Heading Font --- */
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.2rem !important;
+}
+
+/* --- Component Styles --- */
+.card {
+  background-color: var(--card-beige) !important;
+  border: none !important;
+}
+
+/* --- Button Styles --- */
+.btn-primary {
+  background-color: var(--primary-brown) !important;
+  border-color: var(--primary-brown) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
+
+/* --- Link Styles --- */
+.card-body a {
+  color: var(--text-espresso) !important;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  color: var(--primary-brown) !important;
+}
+
+/* --- Developer Image Style --- */
+.developer-img {
+  width: 60px;
+  /* <-- REDUCED SIZE */
+  height: 60px;
+  /* <-- REDUCED SIZE */
+  border: 2px solid var(--card-beige);
+  margin-bottom: 0.5rem;
 }
